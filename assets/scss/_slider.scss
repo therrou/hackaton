@@ -1,0 +1,447 @@
+/*--------- 3. Slider style ---------*/
+
+.slider-height-1 {
+    height: 844px;
+    @media #{$desktop-device} {
+        height: 600px;
+    }
+    @media #{$laptop-device} {
+        height: 600px;
+    }
+    @media #{$tablet-device} {
+        height: 500px;
+    }
+    @media #{$large-mobile} {
+        height: 500px;
+    }
+}
+
+.slider-active {
+    position: relative;
+    .slider-single-img {
+        width: 504px;
+        position: absolute;
+        right: 256px;
+        bottom: 0;
+        @media #{$extrabig-device} {
+            width: 430px;
+            right: 50px;
+        }
+        @media #{$desktop-device} {
+            width: 380px;
+            right: 30px;
+        }
+        @media #{$laptop-device} {
+            width: 350px;
+            right: 30px;
+        }
+        @media #{$tablet-device} {
+            width: 250px;
+            right: 30px;
+        }
+        @media #{$large-mobile} {
+            display: none;
+        }
+    }
+}
+
+.slider-content {
+    @media #{$desktop-device} {
+        padding-top: 150px;
+    }
+    @media #{$laptop-device} {
+        padding-top: 120px;
+    }
+    @media #{$tablet-device} {
+        padding-top: 100px;
+    }
+    @media #{$large-mobile} {
+        padding-top: 50px;
+    }
+    @media #{$small-mobile} {
+        padding-top: 100px;
+    }
+    h1 {
+        font-size: 60px;
+        color: #fff;
+        font-weight: bold;
+        margin: 0;
+        line-height: 1;
+        @media #{$desktop-device} {
+            font-size: 65px;
+        }
+        @media #{$laptop-device} {
+            font-size: 55px;
+        }
+        @media #{$tablet-device} {
+            font-size: 40px;
+        }
+        @media #{$large-mobile} {
+            font-size: 28px;
+        }
+    }
+    p {
+        font-size: 18px;
+        color: #fff;
+        line-height: 30px;
+        width: 90%;
+        margin: 25px 0 47px;
+        @media #{$desktop-device} {
+            width: 84%;
+        }
+        @media #{$laptop-device} {
+            width: 78%;
+        }
+        @media #{$tablet-device} {
+            width: 100%;
+            margin: 15px 0 27px;
+        }
+        @media #{$large-mobile} {
+            width: 100%;
+            margin: 25px 0 30px;
+        }
+    }
+    .slider-btn {
+        a {
+            margin-right: 27px;
+            &:last-child {
+                margin-right: 0;
+            }
+            @media #{$large-mobile} {
+                padding: 12px 16px 12px;
+                font-size: 14px;
+                margin-right: 10px;
+            }
+        }
+        a.btn-green-color {
+            background-color: $theme-color;
+            color: #fff;
+            border: 1px solid #00a651;
+            &:hover {
+                background-color: #fff;
+                border: 1px solid transparent;
+                color: $theme-color;
+            }
+        }
+        a.btn-white-color {
+            background-color: #fff;
+            color: $theme-color;
+            border: 1px solid #77d0a2;
+            &:hover {
+                background-color: $theme-color;
+                border: 1px solid transparent;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.owl-item .slider-content * {
+    -webkit-animation-duration: 1.3s;
+    animation-duration: 1.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.owl-item.active .slider-content * {}
+
+.owl-item.active .slider-animated-1 h1 {
+    -webkit-animation-delay: 1.0s;
+    animation-delay: 1.0s;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+.owl-item.active .slider-animated-1 p {
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+.owl-item.active .slider-animated-1 a {
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+.owl-item.active .slider-animated-1.slider-single-img img {
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+
+.owl-item.active .slider-animated-2.slider-single-img2 img {
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.owl-item.active .slider-animated-2 h1 {
+    -webkit-animation-delay: 1.0s;
+    animation-delay: 1.0s;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.owl-item.active .slider-animated-2 p {
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.owl-item.active .slider-animated-2 a {
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+
+/* slider style 2 home2*/
+
+.slider-content.slider-content-2 {
+    padding-top: 0px;
+    p {
+        width: 70%;
+        margin: 25px auto 45px;
+        @media #{$tablet-device} {
+            width: 78%;
+            margin: 25px auto 35px;
+        }
+        @media #{$large-mobile} {
+            width: 100%;
+            margin: 20px auto 30px;
+        }
+    }
+}
+
+.slider-overlay2-1.default-overlay::before {
+    opacity: .39;
+    background-color: #000;
+}
+
+.slider-overlay2-2.default-overlay::before {
+    opacity: .43;
+    background-color: #000;
+}
+
+.slider-overlay2-3.default-overlay::before {
+    opacity: .70;
+    background-color: #000;
+}
+
+.slider-height-2 {
+    height: 800px;
+    @media #{$extrabig-device} {
+        height: 600px;
+    }
+    @media #{$desktop-device} {
+        height: 550px;
+    }
+    @media #{$laptop-device} {
+        height: 550px;
+    }
+    @media #{$tablet-device} {
+        height: 480px;
+    }
+    @media #{$large-mobile} {
+        height: 480px;
+    }
+}
+
+
+/*----------------- home 3 ----------------*/
+
+.slider-height-3 {
+    height: 800px;
+    @media #{$extrabig-device} {
+        height: 600px;
+    }
+    @media #{$desktop-device} {
+        height: 550px;
+    }
+    @media #{$laptop-device} {
+        height: 550px;
+    }
+    @media #{$tablet-device} {
+        height: 430px;
+    }
+    @media #{$small-mobile} {
+        height: 450px;
+    }
+}
+
+.slider-height-3.pt-170 {
+    @media #{$extrabig-device} {
+        padding-top: 80px;
+    }
+    @media #{$desktop-device} {
+        padding-top: 80px;
+    }
+    @media #{$laptop-device} {
+        padding-top: 50px;
+    }
+    @media #{$tablet-device} {
+        padding-top: 50px;
+    }
+    @media #{$large-mobile} {
+        padding-top: 30px;
+    }
+    @media #{$small-mobile} {
+        padding-top: 50px;
+    }
+}
+
+.slider-single-img2 {
+    margin: 0 85px 0 15px;
+    @media #{$extrabig-device} {
+        width: 390px;
+    }
+    @media #{$laptop-device} {
+        margin: 0;
+        width: 350px;
+    }
+    @media #{$large-mobile} {
+        margin: 0;
+    }
+}
+
+.slider-content-3.ml-55 {
+    margin-left: 0;
+}
+
+.slider-content-3.pt-115 {
+    @media #{$desktop-device}{
+		padding-top: 100px;
+	}
+    @media #{$laptop-device}{
+		padding-top: 100px;
+	}
+    @media #{$tablet-device}{
+		padding-top: 30px;
+	}
+    @media #{$large-mobile}{
+		padding-top: 50px;
+	}
+}
+
+.slider-content-3 {
+    h1 {
+        color: $theme-color;
+        font-size: 60px;
+        font-weight: bold;
+        margin: 0;
+        span.text-blue {
+            color: #0259cf;
+        }
+        span.text-pink {
+            color: #c42d88;
+        }
+        @media #{$laptop-device} {
+            font-size: 50px;
+        }
+        @media #{$tablet-device} {
+            font-size: 45px;
+        }
+        @media #{$large-mobile} {
+            font-size: 35px;
+        }
+        @media #{$small-mobile} {
+            font-size: 32px;
+        }
+    }
+    p {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 38px 0 36px;
+        @media #{$large-mobile} {
+            margin: 15px 0 20px;
+            font-size: 17px;
+        }
+    }
+}
+
+.nav-style-2.owl-carousel {
+    position: relative;
+    .owl-nav {
+        div {
+            background-color: #161616;
+            color: #fff;
+            font-size: 24px;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            border-radius: 100%;
+            text-align: center;
+            top: 50%;
+            transform: translateY(-50%);
+            position: absolute;
+            transition: all .4s ease 0s;
+            box-shadow: 0px 6px 12px 0.8px rgba(177, 177, 177, 0.38);
+            left: 117px;
+            opacity: 0;
+            visibility: hidden;
+            &:hover {
+                background-color: $theme-color;
+            }
+            @media #{$extrabig-device} {
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                left: 50px;
+            }
+            @media #{$desktop-device} {
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                left: 50px;
+            }
+            @media #{$laptop-device} {
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                left: 20px;
+            }
+            @media #{$tablet-device} {
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                left: 20px;
+            }
+            @media #{$large-mobile} {
+                width: 40px;
+                height: 40px;
+                line-height: 38px;
+                left: 15px;
+            }
+        }
+        div.owl-next {
+            left: auto;
+            right: 117px;
+            @media #{$extrabig-device} {
+                right: 50px;
+            }
+            @media #{$desktop-device} {
+                right: 50px;
+            }
+            @media #{$laptop-device} {
+                right: 20px;
+            }
+            @media #{$tablet-device} {
+                right: 20px;
+            }
+            @media #{$large-mobile} {
+                right: 15px;
+            }
+        }
+    }
+    &:hover .owl-nav div {
+        opacity: 1;
+        visibility: visible;
+    }
+}

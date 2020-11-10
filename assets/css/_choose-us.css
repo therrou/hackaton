@@ -1,0 +1,12 @@
+.section-padding-1 .container-fluid {
+  padding-right: 100px;
+  padding-left: 100px; }
+
+.single-choose-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .single-choose-us .choose-img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 60px;
+    flex: 0 0 60px; }

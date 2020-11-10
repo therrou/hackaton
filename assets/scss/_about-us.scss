@@ -1,0 +1,220 @@
+/*--------- 5. About us ---------*/
+
+.about-content {
+    margin-top: 28px;
+    @media #{$tablet-device} {
+        margin-top: 0px;
+    }
+    @media #{$large-mobile} {
+        margin-top: 0px;
+    }
+    > p {
+        line-height: 26px;
+        width: 92%;
+        margin: 0 0 0 32px;
+        @media #{$large-mobile} {
+            margin: 0 0 0 0px;
+        }
+    }
+    .about-btn a.default-btn {
+        box-shadow: 0px 6px 12px .8px rgba(#0e0e0e, 0.26);
+        margin: 0 0 0 32px;
+        @media #{$large-mobile} {
+            margin: 0 0 0 0px;
+        }
+    }
+    @media #{$large-mobile} {
+        .about-btn.mt-45 {
+            margin-top: 15px;
+        }
+    }
+}
+
+.about-img.default-overlay {
+    @media #{$large-mobile} {
+        margin-top: 30px;
+    }
+    &:before {
+        background-color: #000;
+        opacity: .5;
+    }
+    img {
+        width: 100%;
+    }
+    .video-btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+}
+
+@media #{$large-mobile} {
+    .about-img.default-overlay.about-img-2 {
+        margin-top: 0;
+    }
+}
+
+.about-img.about-img-2.default-overlay::before {
+    background-color: #000;
+    opacity: 0.61;
+}
+
+.about-content-2 {
+    p {
+        line-height: 26px;
+        margin: 0 0 30px;
+    }
+    > img {
+        width: 100%;
+        @media #{$tablet-device} {
+            width: auto;
+        }
+    }
+    .about-btn a.default-btn {
+        box-shadow: 0px 6px 12px .8px rgba(#0e0e0e, 0.26);
+    }
+}
+
+@media #{$laptop-device} {
+    .about-content-2.pr-70 {
+        padding-right: 0;
+    }
+}
+
+@media #{$tablet-device} {
+    .about-content-2.pr-70 {
+        padding-right: 0;
+        margin-top: 40px;
+    }
+}
+
+@media #{$large-mobile} {
+    .about-content-2.pr-70 {
+        padding-right: 0;
+        margin-top: 30px;
+    }
+}
+
+@media #{$laptop-device} {
+    .about-img-2.mr-70 {
+        margin-right: 0;
+    }
+}
+
+@media #{$tablet-device} {
+    .about-img-2.mr-70 {
+        margin-right: 0;
+    }
+}
+
+@media #{$large-mobile} {
+    .about-img-2.mr-70 {
+        margin-right: 0;
+    }
+}
+
+
+/* about us page */
+
+.breadcrumb-top {
+    position: relative;
+    z-index: 9;
+    h2 {
+        font-weight: bold;
+        font-size: 48px;
+        margin: 0 0 22px;
+        color: #fff;
+        z-index: 9;
+        position: relative;
+        @media #{$large-mobile} {
+            font-size: 35px;
+            margin: 0 0 10px;
+        }
+    }
+    p {
+        font-size: 16px;
+        color: #fff;
+        line-height: 26px;
+        z-index: 9;
+        position: relative;
+        margin: 0;
+        width: 40%;
+        @media #{$tablet-device} {
+            width: 73%;
+        }
+        @media #{$large-mobile} {
+            width: 100%;
+        }
+    }
+}
+
+.breadcrumb-bottom {
+    background-color: $theme-color;
+    padding: 14px 0 12px;
+    ul {
+        li {
+            display: flex;
+            justify-content: space-between;
+            a {
+                font-weight: 500;
+                font-size: 18px;
+                color: #f6f6f6;
+                line-height: 1;
+                &:hover {
+                    color: #fff;
+                }
+            }
+            span {
+                font-weight: 500;
+                font-size: 18px;
+                color: #f6f6f6;
+                line-height: 1;
+                i {
+                    color: #f6f6f6;
+                    font-size: 14px;
+                    margin-right: 5px;
+                    position: relative;
+                    top: -1px;
+                }
+            }
+        }
+    }
+}
+
+.breadcrumb-top.default-overlay:before {
+    background-color: #000;
+    opacity: .65;
+}
+
+.breadcrumb-top.breadcrumb-overly-2.default-overlay:before {
+    background-color: #003218;
+    opacity: .76;
+}
+
+.breadcrumb-top.breadcrumb-overly-3.default-overlay:before {
+    background-color: #000;
+    opacity: .3;
+}
+
+.breadcrumb-top.breadcrumb-overly-4.default-overlay:before {
+    background-color: #000;
+    opacity: .73;
+}
+
+.breadcrumb-top.breadcrumb-overly-5.default-overlay:before {
+    background-color: #000;
+    opacity: .65;
+}
+
+.breadcrumb-top.pt-100 {
+    @media #{$large-mobile} {
+        padding-top: 50px;
+    }
+}
+
+.breadcrumb-top.pb-95 {
+    @media #{$large-mobile} {
+        padding-bottom: 45px;
+    }
+}

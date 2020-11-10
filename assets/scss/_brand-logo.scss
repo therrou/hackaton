@@ -1,0 +1,15 @@
+/*--------- 16. Brand logo ---------*/
+
+.brand-logo-active.owl-carousel {
+    .owl-item {
+        .single-brand-logo {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            min-height: 84px;
+            img {
+                width: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,351 @@
+/*--------- 7. Achievement style ---------*/
+
+.single-count {
+    display: flex;
+    position: relative;
+    &:before {
+        position: absolute;
+        top: 8px;
+        background-color: #e1dddd;
+        content: "";
+        width: 3px;
+        height: 50px;
+    }
+    .count-img {
+        flex: 0 0 54px;
+        margin-right: 25px;
+        img {
+            width: 100%;
+        }
+        @media #{$laptop-device} {
+            flex: 0 0 40px;
+            margin-right: 15px;
+        }
+    }
+    .count-content {
+        h2 {
+            font-size: 40px;
+            font-weight: bold;
+            margin: 0 0 15px;
+            color: $theme-color;
+            @media #{$laptop-device} {
+                font-size: 40px;
+                margin: 0 0 12px;
+            }
+            @media #{$large-mobile} {
+                font-size: 35px;
+                margin: 0 0 10px;
+            }
+        }
+        span {
+            font-size: 16px;
+            font-weight: 500;
+            display: block;
+            line-height: 1;
+            color: #666666;
+            @media #{$laptop-device} {
+                font-size: 14px;
+            }
+            @media #{$large-mobile} {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.count-one {
+    &:before {
+        right: 7px;
+        @media #{$laptop-device} {
+            right: 26px;
+        }
+        @media #{$tablet-device} {
+            right: 65px;
+        }
+        @media #{$large-mobile} {
+            display: none;
+        }
+    }
+    @media #{$desktop-device} {
+        margin-left: 0px;
+    }
+    @media #{$laptop-device} {
+        margin-left: 0px;
+    }
+    @media #{$tablet-device} {
+        margin-left: 0px;
+    }
+    @media #{$large-mobile} {
+        margin-left: 0px;
+    }
+}
+
+.count-two {
+    margin-left: 55px;
+    &:before {
+        right: -47px;
+        @media #{$laptop-device} {
+            right: 25px;
+        }
+        @media #{$tablet-device} {
+            display: none;
+        }
+        @media #{$large-mobile} {
+            display: none;
+        }
+    }
+    @media #{$laptop-device} {
+        margin-left: 0px;
+    }
+    @media #{$tablet-device} {
+        margin-left: 0px;
+    }
+    @media #{$large-mobile} {
+        margin-left: 0px;
+    }
+}
+
+.count-three {
+    margin-left: 80px;
+    &:before {
+        right: 20px;
+        @media #{$laptop-device} {
+            right: -34px;
+        }
+        @media #{$tablet-device} {
+            right: 38px;
+        }
+        @media #{$large-mobile} {
+            display: none;
+        }
+    }
+    @media #{$laptop-device} {
+        margin-left: 0px;
+    }
+    @media #{$tablet-device} {
+        margin-left: 0px;
+    }
+    @media #{$large-mobile} {
+        margin-left: 0px;
+    }
+}
+
+.count-four {
+    float: right;
+    @media #{$tablet-device} {
+        float: inherit;
+    }
+    @media #{$large-mobile} {
+        float: inherit;
+    }
+    &:before {
+        display: block;
+        content: none;
+    }
+}
+
+.testimonial-slider-wrap {
+    position: relative;
+    .testimonial-image-slider {
+        width: 395px;
+        position: absolute;
+        right: 0px;
+        bottom: -50px;
+        @media #{$large-mobile} {
+            width: 100%;
+            position: inherit;
+            bottom: 0px;
+            margin-top: 30px;
+        }
+        .sin-testi-image img {
+            cursor: pointer;
+            width: 100%;
+        }
+        @media #{$tablet-device} {
+            width: 335px;
+            right: 0px;
+        }
+        .slick-list {
+            margin: 0 -5px;
+            .sin-testi-image {
+                margin: 0 5px;
+            }
+        }
+    }
+}
+
+.testi-content.default-overlay:before {
+    background-color: $theme-color;
+    opacity: .95;
+}
+
+.testi-big-img img {
+    height: 100%;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: 2;
+    @media #{$large-mobile} {
+        width: 100%;
+        position: inherit;
+    }
+    @media #{$tablet-device} {
+        width: 100%;
+        position: static;
+    }
+}
+
+.testi-content {
+    min-height: 450px;
+    padding: 50px 30px;
+    @media #{$tablet-device} {
+        padding: 40px 20px;
+        min-height: 410px;
+    }
+    @media #{$laptop-device} {
+        min-height: 420px;
+    }
+    @media #{$large-mobile} {
+        padding: 30px 15px;
+    }
+    @media #{$small-mobile} {
+        min-height: 365px;
+    }
+    position: relative;
+    .quote-style i {
+        position: relative;
+        z-index: 9;
+        font-size: 18px;
+        color: #ffffff;
+    }
+    .quote-style.quote-left {
+        margin-bottom: 16px;
+    }
+    .quote-style.quote-right {
+        text-align: right;
+        margin-right: 55px;
+        margin-top: 2px;
+    }
+    p {
+        color: #fff;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0;
+        position: relative;
+        @media #{$tablet-device}{
+            font-size: 14px;
+        }
+    }
+    .testi-info {
+        margin-top: 28px;
+        h5 {
+            position: relative;
+            font-size: 18px;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 7px;
+        }
+        span {
+            position: relative;
+            font-size: 16px;
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+    .testi-arrow {
+        position: absolute;
+        bottom: 27px;
+        left: 30px;
+        @media #{$laptop-device} {
+            bottom: 75px;
+        }
+    }
+}
+
+.testimonial-text-img {
+    margin-top: -3px;
+    width: 757px;
+    @media #{$laptop-device} {
+        width: 510px;
+    }
+    @media #{$tablet-device} {
+        width: 345px;
+    }
+    @media #{$large-mobile} {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+
+/*------------------- home 2 ---------------*/
+
+.single-count.count-white {
+    @media #{$tablet-device} {
+        justify-content: center;
+    }
+    &:before {
+        background-color: $theme-color;
+        width: 1px;
+        top: 0;
+    }
+    .count-content {
+        h2 {
+            color: #fff;
+            font-size: 30px;
+            line-height: 1;
+            margin: 0 0 10px;
+        }
+        span {
+            color: #fff; 
+            font-size: 16px;
+            font-weight: 400; 
+        }
+    }
+}
+
+.count-one.count-white {
+    margin-left: 0px;
+    &:before {
+        right: -3px;  
+        @media #{$laptop-device} {
+            right: 6px;
+        }
+        @media #{$tablet-device} {
+            right: -25px;
+        }
+    }
+}
+
+.count-two.count-white::before {
+    right: -16px;
+    @media #{$laptop-device} {
+        right: 27px;
+    }
+}
+
+.count-three.count-white {
+    margin-left: 70px;
+    @media #{$laptop-device} {
+        margin-left: 0px;
+    }
+    @media #{$tablet-device} {
+        margin-left: 0px;
+    }
+    @media #{$large-mobile} {
+        margin-left: 0px;
+    }
+    &:before {
+        right: 29px;
+        @media #{$laptop-device} {
+            right: -30px;
+        }
+        @media #{$tablet-device} {
+            right: -25px;
+        }
+    }
+}

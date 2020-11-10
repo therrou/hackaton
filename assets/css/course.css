@@ -1,0 +1,9 @@
+.single-course .course-img img {
+  width: 100%; }
+
+.single-course .course-content h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 10px; }
+  .single-course .course-content h4 a {
+    color: #333; }

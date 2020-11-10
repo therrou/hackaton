@@ -1,0 +1,88 @@
+/*--------- 13. Banner style ---------*/
+
+.single-banner {
+    position: relative;
+    overflow: hidden;
+    .banner-img {
+        img {
+            width: 100%;
+            transform: scale(1);
+            transition: all .5s ease 0s;
+        }
+    }
+    .banner-content {
+        position: absolute;
+        left: 40px;
+        top: 50%;
+        transform: translateY(-50%);
+        @media #{$tablet-device} {
+            left: 15px;
+        }
+        @media #{$large-mobile} {
+            left: 20px;
+        }
+        h5 {
+            font-size: 18px;
+            font-weight: 500;
+            color: #033333;
+            margin: 0 0 15px;
+            @media #{$tablet-device}{
+                margin: 0 0 10px;
+            }
+        }
+        h2 {
+            font-size: 30px;
+            color: #033333;
+            font-weight: 500;
+            margin: 0;
+            line-height: 1;
+            @media #{$tablet-device}{
+                font-size: 22px;
+            }
+        }
+        .banner-shape {
+            position: relative;
+            margin: 4px 0 48px;
+            &:before {
+                position: absolute;
+                content: "";
+                background-color: #e4e4e4;
+                width: 148px;
+                height: 1px;
+                left: 0;
+                bottom: 2px;
+            }
+            img {
+                width: 148px;
+            }
+        }
+        .banner-btn a.default-btn {
+            padding: 17px 30px 17px;
+            font-size: 14px;
+            box-shadow: 0px 6px 12px 0.8px rgba(14, 14, 14, 0.38);
+            &:hover {
+                color: #161616;
+                background-color: #fff;
+            }
+        }
+    }
+    &:hover .banner-img img {
+        transform: scale(1.2);
+    }
+}
+
+.single-banner.second-banner .banner-content {
+    left: 170px;
+    @media #{$laptop-device} {
+        left: 100px;
+    }
+    @media #{$tablet-device} {
+        left: 15px;
+    }
+    @media #{$large-mobile} {
+        left: 102px;
+    }
+    @media #{$small-mobile} {
+        left: 280px;
+    }
+}

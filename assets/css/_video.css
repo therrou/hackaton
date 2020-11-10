@@ -1,0 +1,23 @@
+/*--------- 26. Video style ---------*/
+.video-area {
+  position: relative; }
+  .video-area:before {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #000;
+    content: "";
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #383838; }
+  .video-area .video-btn-2 {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    z-index: 99; }
+    .video-area .video-btn-2 a {
+      text-align: center;
+      display: block; }

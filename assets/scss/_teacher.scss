@@ -1,0 +1,139 @@
+/*--------- 9. Teacher style ---------*/
+
+.single-teacher {
+    position: relative;
+    .teacher-img img {
+        width: 100%;
+    }
+    .teacher-content-visible {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background-color: #fff;
+        text-align: right;
+        padding: 20px 31px 20px 37px;
+        transform: scale(1);
+        transition: all .5s ease 0s;
+        h4 {
+            color: $theme-color;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0 0 6px;
+        }
+        h5 {
+            color: $theme-color;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0 0 0px;
+        }
+    }
+    .teacher-content-wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: scale(0);
+        transition: all .5s ease 0s;
+        z-index: 99;
+        .teacher-content {
+            padding: 42px 33px;
+            h4 {
+                color: #fff;
+                font-size: 18px;
+                font-weight: bold;
+                margin: 0 0 6px;
+            }
+            h5 {
+                color: #fff;
+                font-size: 16px;
+                font-weight: bold;
+                margin: 0 0 10px;
+            }
+            p {
+                color: #fff;
+                line-height: 25px;
+                margin: 0;
+            }
+            .teacher-social {
+                margin: 43px 0 0;
+                ul {
+                    display: flex;
+                    li {
+                        margin: 0 6px 0 0;
+                        &:last-child {
+                            margin: 0;
+                        }
+                        a {
+                            width: 28px;
+                            height: 28px;
+                            border-radius: 100%;
+                            text-align: center;
+                            line-height: 28px;
+                            font-size: 12px;
+                            background-color: #fff;
+                            display: inline-block;
+                        }
+                        a.facebook {
+                            color: #0054a6;
+                            &:hover {
+                                background-color: #0054a6;
+                                color: #fff;
+                            }
+                        }
+                        a.youtube-play {
+                            color: #c4302b;
+                            &:hover {
+                                background-color: #c4302b;
+                                color: #fff;
+                            }
+                        }
+                        a.twitter {
+                            color: #38a1f3;
+                            &:hover {
+                                background-color: #38a1f3;
+                                color: #fff;
+                            }
+                        }
+                        a.google-plus {
+                            color: #cc3333;
+                            &:hover {
+                                background-color: #cc3333;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #00a651;
+        opacity: .9;
+        transform: scale(0);
+        transition: all .5s ease 0s;
+    }
+    &:after {
+        border: 1px solid #0ac766;
+        left: 12px;
+        top: 15px;
+        right: 12px;
+        bottom: 15px;
+        position: absolute;
+        content: "";
+        transform: scale(0);
+        transition: all .5s ease 0s;
+    }
+    &:hover .teacher-content-wrap,
+    &:hover:before,
+    &:hover:after {
+        transform: scale(1)
+    }
+    &:hover .teacher-content-visible {
+        transform: scale(0)
+    }
+}

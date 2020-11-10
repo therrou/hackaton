@@ -1,0 +1,129 @@
+/*--------- 15. Discount area ---------*/
+
+.discount-img-wrap {
+    position: relative;
+    img {
+        width: 100%;
+    }
+    .discount-img-content-wrap {
+        position: absolute;
+        top: 42px;
+        right: 25px;
+        animation-iteration-count: infinite;
+        animation-name: bounce-img;
+        animation-duration: 2.9s;
+        .discount-img-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+            text-align: center;
+            h5 {
+                font-size: 48px;
+                font-weight: bold;
+                color: $theme-color;
+                margin: 0 0 13px;
+                line-height: 35px;
+            }
+            span {
+                font-size: 14px;
+                font-weight: bold;
+                color: $theme-color;
+            }
+        }
+    }
+}
+
+.discount-img-wrap.mr-60 {
+    @media #{$laptop-device} {
+        margin-right: 0;
+    }
+    @media #{$tablet-device} {
+        margin-right: 0;
+    }
+    @media #{$large-mobile} {
+        margin-right: 0;
+    }
+}
+
+.discount-content {
+    h4 {
+        font-weight: bold;
+        font-size: 24px;
+        margin: 0;
+    }
+    h2 {
+        font-weight: 500;
+        font-size: 72px;
+        margin: 30px 0 39px;
+        line-height: 55px;
+        @media #{$tablet-device} {
+            font-size: 55px;
+        }
+        @media #{$large-mobile} {
+            font-size: 40px;
+            margin: 10px 0 20px;
+        }
+        span {
+            position: relative;
+            z-index: 99;
+            &:before {
+                content: url(../../assets/img/icon-img/discount.png);
+                position: absolute;
+                left: 6px;
+                top: 16px;
+                z-index: -1;
+                @media #{$large-mobile} {
+                    display: none;
+                }
+            }
+        }
+    }
+    .discount-btn a {
+        color: #f6f6f6;
+    }
+    @media #{$large-mobile} {
+        margin-top: 30px;
+    }
+}
+
+.discount-area.pb-90 {
+    padding-bottom: 60px;
+}
+
+.discount-area.pt-110 {
+    padding-top: 60px;
+}
+
+
+/* slider img bounce */
+
+@-webkit-keyframes bounce-img {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes bounce-img {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

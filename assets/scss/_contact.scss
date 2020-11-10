@@ -1,0 +1,163 @@
+/*--------- 20. Contact page ---------*/
+
+.contact-map {
+    border: 10px solid $theme-color;
+    border-right: none;
+    #map {
+        height: 685px;
+        @media #{$large-mobile}{
+            height: 400px;
+        }
+        @media #{$tablet-device}{
+            height: 500px;
+        }
+    }
+}
+
+.contact-form {
+    @media #{$tablet-device} {
+        margin-top: 40px;
+    }
+    @media #{$large-mobile} {
+        margin-top: 40px;
+    }
+    .contact-title {
+        h2 {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 0 0 31px;
+            @media #{$large-mobile} {
+                font-size: 35px;
+            }
+            span {
+                font-weight: 400;
+                color: $theme-color;
+            }
+        }
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            margin: 0;
+        }
+    }
+    form {
+        input {
+            border: 1px solid #eeeeee;
+            font-size: 13px;
+            color: #333;
+            background: transparent;
+            padding: 2px 20px;
+            margin-bottom: 25px;
+        }
+        textarea {
+            border: 1px solid #eeeeee;
+            font-size: 13px;
+            color: #333;
+            background: transparent;
+            height: 135px;
+            padding: 17px 20px;
+        }
+        button {
+            padding: 0;
+            border: none;
+            font-size: 16px;
+            font-weight: bold;
+            color: $theme-color;
+            background-color: #fff;
+            line-height: 1;
+            display: inline-block;
+            box-shadow: 0px 6px 12px 0.8px rgba(14, 14, 14, 0.26);
+            padding: 23px 40px 20px;
+            border-radius: 50px;
+            margin-top: 47px;
+            @media #{$large-mobile} {
+                margin-top: 30px;
+            }
+            &:hover {
+                color: #fff;
+                background-color: $theme-color;
+            }
+        }
+    } 
+    p.form-messege{
+        margin-top: 10px; 
+    }
+}
+
+.contact-info-area.default-overlay:before {
+    background-color: #02150b;
+    opacity: .79;
+}
+
+.single-contact-info {
+    .contact-info-icon {
+        margin-bottom: 30px;
+        span {
+            position: relative;
+            i {
+                font-size: 16px;
+                color: #fff;
+                width: 64px;
+                height: 64px;
+                line-height: 64px;
+                text-align: center;
+                border-radius: 100%;
+                background-color: #005b2c;
+                position: relative;
+                display: inline-block;
+                z-index: 9;
+                transition: all .3s ease 0s;
+            }
+            &:before {
+                position: absolute;
+                left: -3px;
+                top: -24px;
+                content: "";
+                background-color: #00a651;
+                width: 70px;
+                height: 70px;
+                border-radius: 100%;
+            }
+        }
+    }
+    > p,
+    > a {
+        color: #fff;
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0;
+    }
+    .contact-info-phn {
+        display: flex;
+        justify-content: center;
+        .info-phn-title span {
+            font-size: 18px;
+            color: #fff;
+            margin-right: 5px;
+        }
+        .info-phn-number p {
+            font-size: 18px;
+            color: #fff;
+            margin: 0 0 5px;
+        }
+    }
+    > a:hover {
+        color: #00a651;
+    }
+    &:hover .contact-info-icon span i {
+        background-color: #fff;
+        color: #005b2c;
+    }
+}
+
+.contact-map.mr-70 {
+    @media #{$laptop-device} {
+        margin-right: 0;
+    }
+    @media #{$tablet-device} {
+        margin-right: 0;
+    }
+    @media #{$large-mobile} {
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,241 @@
+/*--------- 10. Event area ---------*/
+
+.event-area.default-overlay {
+    &:before {
+        background-color: #fefefe;
+        opacity: .5;
+    }
+}
+
+.single-event {
+    .event-img {
+        position: relative;
+        overflow: hidden;
+        img {
+            width: 100%;
+            transform: scale(1);
+            transition: all .5s ease 0s;
+        }
+        .event-date-wrap {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            background-color: $theme-color;
+            padding: 12px 20px 12px;
+            span {
+                color: #fff;
+                font-size: 18px;
+                font-weight: bold;
+                display: block;
+                line-height: 1;
+            }
+            span.event-date {
+                margin: 0 0 5px;
+            }
+        }
+    }
+    .event-content {
+        padding: 24px 30px 30px;
+        @media #{$laptop-device} {
+            padding: 24px 15px 30px;
+        }
+        @media #{$tablet-device} {
+            padding: 24px 22px 30px;
+        }
+        @media #{$large-mobile} {
+            padding: 20px 12px 26px;
+        }
+        h3 {
+            font-size: 18px;
+            line-height: 26px;
+            color: #444;
+            font-weight: bold;
+            margin: 0;
+            @media #{$laptop-device} {
+                font-size: 17px;
+            }
+            @media #{$large-mobile} {
+                font-size: 17px;
+            }
+        }
+        p {
+            line-height: 23px;
+            margin: 12px 0 24px;
+        }
+        .event-meta-wrap {
+            display: flex;
+            justify-content: space-between;
+            .event-meta i {
+                width: 25px;
+                height: 25px;
+                border-radius: 100%;
+                color: #fff;
+                background-color: $theme-color;
+                font-size: 12px;
+                text-align: center;
+                line-height: 25px;
+                margin: 0 8px 0 0;
+                @media #{$laptop-device} {
+                    margin: 0 3px 0 0;
+                    width: 20px;
+                    height: 20px;
+                    line-height: 20px;
+                }
+                @media #{$large-mobile} {
+                    margin: 0 3px 0 0;
+                    width: 20px;
+                    height: 20px;
+                    line-height: 20px;
+                }
+            }
+            .event-meta span {
+                color: $theme-color;
+            }
+        }
+    }
+    &:hover img {
+        transform: scale(1.2);
+    }
+}
+
+.single-event.event-gray-bg {
+    background-color: #f6f6f6;
+}
+.single-event.event-white-bg {
+    background-color: #fff;
+}
+
+
+/*--------- home 2 ------------*/
+
+.event-active-2 {
+    position: relative;
+    .e-navigation {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        text-align: center;
+        line-height: 40px;
+        background-color: #fff;
+        color: $theme-color;
+        left: 0;
+        z-index: 99;
+        cursor: pointer;
+        box-shadow: 0px 6px 12px 0.8px rgba(177, 177, 177, 0.38);
+        opacity: 0;
+        visibility: hidden;
+        &:hover {
+            background-color: $theme-color;
+            color: #fff;
+        }
+    }
+    &:hover .e-navigation {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.e-navigation.e-navigation-next {
+    left: auto;
+    right: 0;
+    border-radius: 50px 0 0 50px;
+}
+
+.e-navigation.e-navigation-prev {
+    border-radius: 0px 50px 50px 0px;
+}
+
+.event-active-2 {
+    .single-event-2 {
+        .event-img {
+            .event-date-wrap {
+                top: 0;
+                transform: translateY(0%);
+            }
+        }
+        .event-content {
+            box-shadow: 0px 0px 12px 0.8px rgba(225, 225, 225, 0.3);
+            padding: 24px 40px 30px 30px;
+            @media #{$large-mobile} {
+                padding: 24px 15px 30px 15px;
+            }
+        }
+    }
+    .slick-list {
+        margin: 0 -15px;
+        .single-event-2 {
+            margin: 0 15px 15px;
+        }
+    }
+}
+
+@media #{$tablet-device} {
+    .event-active-2.ml-70 {
+        margin-left: 0px;
+    }
+}
+
+@media #{$large-mobile} {
+    .event-active-2.ml-70 {
+        margin-left: 0px;
+    }
+    .single-event.mb-55 {
+        margin-bottom: 30px;
+    }
+}
+
+
+/*--------- pagination style ------------*/
+
+.pro-pagination-style {
+    ul {
+        li {
+            display: inline-block;
+            margin: 0 4px;
+            a {
+                display: inline-block;
+                width: 48px;
+                height: 48px;
+                text-align: center;
+                line-height: 48px;
+                font-size: 16px;
+                border-radius: 100%;
+                color: $theme-color;
+                box-shadow: 0 0px 12px 0.8px rgba(0, 166, 81, 0.1);
+                &:hover {
+                    background-color: $theme-color;
+                    color: #fff;
+                }
+            }
+            a.active {
+                background-color: $theme-color;
+                color: #fff;
+                box-shadow: none;
+                &:hover {
+                    background-color: #333;
+                }
+            }
+            a.prev,
+            a.next {
+                background-color: #f6f6f6;
+                color: $theme-color;
+                font-size: 17px;
+                box-shadow: none;
+                &:hover {
+                    background-color: $theme-color;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.pro-pagination-style.mt-25 {
+    @media #{$large-mobile} {
+        margin-top: 0;
+    }
+}

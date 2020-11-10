@@ -1,0 +1,180 @@
+/*--------- 11. Blog style ---------*/
+
+.single-blog {
+    position: relative;
+    .blog-img {
+        position: relative;
+        overflow: hidden;
+        img {
+            width: 100%;
+            transform: scale(1);
+            transition: all .5s ease 0s;
+        }
+    }
+    .blog-content-wrap {
+        span {
+            position: absolute;
+            top: -13px;
+            left: 20px;
+            background-color: $theme-color;
+            color: #fff;
+            display: inline-block;
+            line-height: 1;
+            padding: 6px 10px;
+        }
+        box-shadow: 0px 0px 12px 0.8px rgba(225, 225, 225, 0.3);
+        position: relative;
+        .blog-content {
+            padding: 35px 20px 24px;
+            @media #{$large-mobile} {
+                padding: 35px 15px 24px;
+            }
+            h4 {
+                font-size: 18px;
+                font-weight: bold;
+                color: #444;
+                line-height: 26px;
+                margin: 0;
+                @media #{$laptop-device} {
+                    font-size: 16px;
+                }
+                @media #{$large-mobile} {
+                    font-size: 18px;
+                }
+                @media #{$small-mobile} {
+                    font-size: 17px;
+                }
+            }
+            p {
+                margin: 12px 0 5px;
+                line-height: 23px;
+            }
+            .blog-meta ul {
+                display: flex;
+                li {
+                    margin-right: 30px;
+                    @media #{$laptop-device} {
+                        margin-right: 15px;
+                    }
+                    a {
+                        color: #333;
+                        i {
+                            font-size: 12px;
+                            color: $theme-color;
+                            margin-right: 5px;
+                        }
+                        &:hover {
+                            color: $theme-color;
+                        }
+                    }
+                }
+            }
+        }
+        .blog-date {
+            background-color: $theme-color;
+            padding: 6px 20px 8px;
+            a {
+                line-height: 1;
+                display: block;
+                color: #fff;
+                i {
+                    font-size: 12px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    &:hover .blog-img img {
+        transform: scale(1.2);
+    }
+}
+
+
+/*-------- home 2 -------*/
+
+.blog-active {
+    position: relative;
+    .slick-list {
+        margin: 0 -15px;
+        .single-blog {
+            margin: 0 15px;
+        }
+    }
+}
+
+.b-navigation,
+.b-navigation2,
+.b-navigation3 {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: -70px;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 6px 12px 0.8px rgba(177, 177, 177, 0.38);
+    cursor: pointer;
+    color: $theme-color;
+    z-index: 9;
+    @media #{$large-mobile}{
+		left: 0;
+	}
+}
+
+.b-navigation.b-navigation-prev,
+.b-navigation2.b-navigation-prev2,
+.b-navigation3.b-navigation-prev3 {
+    margin-right: 44px;
+    border-radius: 50px 0 0 50px;
+}
+
+.b-navigation.active {
+    background-color: $theme-color;
+    color: #fff;
+}
+
+.b-navigation2.active2 {
+    background-color: $theme-color;
+    color: #fff;
+}
+
+.b-navigation3.active3 {
+    background-color: $theme-color;
+    color: #fff;
+}
+
+.b-navigation.b-navigation-next,
+.b-navigation2.b-navigation-next2,
+.b-navigation3.b-navigation-next3 {
+    border-radius: 50px 0 0 50px;
+    border-radius: 0px 50px 50px 0px;
+    @media #{$large-mobile}{
+		left: auto;
+        right: 0;
+	}
+}
+
+@media #{$large-mobile} {
+    .mrg-bottom-small {
+        margin-bottom: 95px;
+    }
+}
+
+
+/*----------------- blog page -------------*/
+
+.blog-all-wrap.mr-40 {
+    @media #{$laptop-device} {
+        margin-right: 0;
+    }
+    @media #{$tablet-device} {
+        margin-right: 0;
+    }
+    @media #{$large-mobile} {
+        margin-right: 0;
+    }
+}

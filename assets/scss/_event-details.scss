@@ -1,0 +1,311 @@
+/*--------- 22. Event details page ---------*/
+
+.description-date-social {
+    display: flex;
+    justify-content: space-between;
+    @media #{$large-mobile} {
+        display: block;
+    }
+    @media #{$small-mobile} {
+        display: flex;
+    }
+    .description-date-time {
+        overflow: hidden;
+        @media #{$large-mobile} {
+            margin: 0 0 20px;
+        }
+        @media #{$small-mobile} {
+            margin: 0 0 0px;
+        }
+        .description-date {
+            display: inline-block;
+            float: left;
+            padding: 13px 20px;
+            background-color: $theme-color;
+            margin-right: 20px;
+            span {
+                display: block;
+                line-height: 1;
+                color: #fff;
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 10px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .description-meta-wrap {
+            overflow: hidden;
+            .description-meta {
+                margin-bottom: 20px;
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+                i {
+                    color: #f7f7f7;
+                    font-size: 12px;
+                    height: 25px;
+                    width: 25px;
+                    line-height: 25px;
+                    border-radius: 100%;
+                    text-align: center;
+                    background-color: $theme-color;
+                    margin-right: 5px;
+                }
+                span {
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+    .description-social-wrap {
+        display: flex;
+        align-items: center;
+        .description-social {
+            ul {
+                li {
+                    display: inline-block;
+                    margin-left: 12px;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                    a {
+                        color: #333333;
+                        font-size: 14px;
+                    }
+                    a.facebook {
+                        color: #333;
+                        &:hover {
+                            color: #0054a6;
+                        }
+                    }
+                    a.instagram {
+                        color: #333;
+                        &:hover {
+                            color: #e4405f;
+                        }
+                    }
+                    a.twitter {
+                        color: #333;
+                        &:hover {
+                            color: #38a1f3;
+                        }
+                    }
+                    a.google {
+                        color: #333;
+                        &:hover {
+                            color: #cc3333;
+                        }
+                    }
+                }
+            }
+        }
+        .description-btn {
+            a {
+                font-size: 18px;
+                background-color: #f6f6f6;
+                color: $theme-color;
+                width: 44px;
+                height: 44px;
+                line-height: 44px;
+                border-radius: 100%;
+                display: inline-block;
+                text-align: center;
+                margin-left: 14px;
+                &:hover {
+                    background-color: $theme-color;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.event-description {
+    img {
+        width: 100%;
+    }
+    h3 {
+        font-weight: bold;
+        font-size: 24px;
+        margin: 30px 0 19px;
+        color: $theme-color;
+        line-height: 38px;
+        @media #{$large-mobile} {
+            font-size: 20px;
+            line-height: 33px;
+        }
+    }
+    p {
+        margin: 0;
+        line-height: 26px;
+    }
+}
+
+.event-gallery {
+    h4 {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+        color: $theme-color;
+        background-color: #f6f6f6;
+        padding: 13px 0 15px;
+    }
+}
+
+.nav-style-3.owl-carousel .owl-nav div {
+    background-color: #fff;
+    color: $theme-color;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 0px 50px 50px 0px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    transition: all .4s ease 0s;
+    box-shadow: 0px 6px 12px 0.8px rgba(177, 177, 177, 0.38);
+    left: 0px;
+    opacity: 1;
+    visibility: visible;
+    &:hover {
+        background-color: $theme-color;
+        color: #fff;
+    }
+}
+
+.nav-style-3.owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: 0px;
+    border-radius: 50px 0 0 50px;
+}
+
+.seat-book-wrap {
+    padding: 42px 55px 50px;
+    @media #{$large-mobile} {
+        padding: 42px 20px 50px;
+    }
+    .seat-book-title {
+        h3 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+            margin: 0 0 21px;
+            line-height: 1;
+        }
+        p {
+            font-size: 16px;
+            color: #fff;
+            margin: 0;
+            line-height: 25px;
+            width: 90%;
+            margin: 0 auto;
+            @media #{$tablet-device} {
+                width: 100%;
+            }
+            @media #{$large-mobile} {
+                width: 100%;
+            }
+        }
+    }
+    .seat-book-form {
+        margin: 42px 0 0;
+        form {
+            input {
+                background: transparent;
+                border: 1px solid #21ca74;
+                height: 45px;
+                padding: 2px 20px;
+                font-size: 14px;
+                color: #fff;
+                margin: 0 0 30px;
+                &::-moz-placeholder {
+                    color: #fff;
+                    opacity: 1;
+                }
+                &::-webkit-input-placeholder {
+                    color: #fff;
+                    opacity: 1;
+                }
+            }
+            textarea {
+                background: transparent;
+                border: 1px solid #21ca74;
+                height: 155px;
+                padding: 17px 20px;
+                font-size: 14px;
+                color: #fff;
+                margin: 0 0 30px;
+                &::-moz-placeholder {
+                    color: #fff;
+                    opacity: 1;
+                }
+                &::-webkit-input-placeholder {
+                    color: #fff;
+                    opacity: 1;
+                }
+            }
+            button {
+                padding: 0;
+                border: none;
+                background: transparent;
+                font-weight: bold;
+                font-size: 16px;
+                letter-spacing: .5px;
+                text-transform: uppercase;
+                color: $theme-color;
+                background-color: #fff;
+                line-height: 1;
+                padding: 21px 40px 21px;
+                border-radius: 50px;
+                box-shadow: 0px 6px 12px 0.8px rgba(14, 14, 14, 0.26);
+                margin-top: 15px;
+                &:hover {
+                    color: #fff;
+                    background-color: #333;
+                }
+                @media #{$large-mobile} {
+                    margin-top: 0px;
+                    padding: 18px 30px 18px;
+                }
+            }
+        }
+    }
+}
+
+#location {
+    height: 307px;
+}
+
+.event-left-wrap.mr-40 {
+    @media #{$laptop-device} {
+        margin-right: 0;
+    }
+    @media #{$tablet-device} {
+        margin-right: 0;
+    }
+    @media #{$large-mobile} {
+        margin-right: 0;
+    }
+}
+
+.sidebar-style {
+    @media #{$tablet-device} {
+        margin-top: 50px;
+    }
+    @media #{$large-mobile} {
+        margin-top: 50px;
+    }
+}
+
+.sidebar-style.sidebar-res-mrg-none {
+    @media #{$tablet-device} {
+        margin-top: 0px;
+    }
+    @media #{$large-mobile} {
+        margin-top: 0px;
+    }
+}
