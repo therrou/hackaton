@@ -1443,7 +1443,7 @@ textarea:focus {
     -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
     visibility: visible; }
-  > .main-menu nav ul li:first-child {
+   .main-menu nav ul li:first-child {
     margin-left: 0px; }
   .main-menu nav ul li:hover a {
     color: #00a651; }
@@ -1818,10 +1818,10 @@ textarea:focus {
 
 .slider-content p {
   font-size: 18px;
-  color: #;
   line-height: 30px;
   width: 90%;
   margin: 25px 0 47px; }
+
   @media only screen and (min-width: 1200px) and (max-width: 1365px) {
     .slider-content p {
       width: 84%; } }
