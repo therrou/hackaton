@@ -11,7 +11,7 @@
 	
     1. Template default CSS
     2. Header style
-	3. Slider style
+	  3. Slider style
     4. choose us area
     5. About us
     6. Course area
@@ -506,7 +506,7 @@ a:hover {
   padding-top: 95px; }
 
 .pt-90 {
-  padding-top: 90px; }
+  padding-top: 1px; }
   @media only screen and (max-width: 767px) {
     .pt-90 {
       padding-top: 60px; } }
