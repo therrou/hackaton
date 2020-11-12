@@ -1210,7 +1210,7 @@ textarea:focus {
   background-color: #f6f7f8; }
 
 .default-btn {
-  background-color: #8DC341;;
+  background-color: #35609F ;
   color: #fff;
   display: inline-block;
   font-size: 16px;
@@ -1255,7 +1255,7 @@ textarea:focus {
     width: 100%;
     height: 44px;
     content: "";
-    background-color: #8DC341;
+    background-color: #293653;
     opacity: .8; }
     @media only screen and (max-width: 767px) {
       .header-top:before {
@@ -1848,20 +1848,20 @@ textarea:focus {
       margin-right: 10px; } }
 
 .slider-content .slider-btn a.btn-green-color {
-  background-color: #8DC341;
+  background-color:#35609F;
   color: #fff;
-  border: 1px solid #8DC341; }
+  border: 1px solid #35609F; }
   .slider-content .slider-btn a.btn-green-color:hover {
     background-color: #fff;
-    border: 1px solid transparent;
-    color: #8DC341; }
+    border: 1px solid #35609F;
+    color: #35609F; }
 
 .slider-content .slider-btn a.btn-white-color {
   background-color: #fff;
-  color: #8DC341;
+  color:#35609F; 
   border: 1px solid #77d0a2; }
   .slider-content .slider-btn a.btn-white-color:hover {
-    background-color: #8DC341;
+    background-color: #4AAADF;
     border: 1px solid transparent;
     color: #fff; }
 
@@ -2305,7 +2305,7 @@ textarea:focus {
         font-size: 27px;
         margin: 0 0 10px; } }
     .section-title h2 span {
-      color: #00a651;
+      color: #35609F;
       font-weight: 400; }
   .section-title p {
     font-size: 16px;
@@ -2332,7 +2332,7 @@ textarea:focus {
   color: #fff; }
 
 .section-title-green p {
-  color: #00a651; }
+  color: #35609F  }
 
 @media only screen and (max-width: 767px) {
   .section-title.section-title-green.mb-30 {
@@ -2698,7 +2698,7 @@ textarea:focus {
         width: 100%; } }
 
 .breadcrumb-bottom {
-  background-color: #00a651;
+  background-color:#4AAADF;
   padding: 14px 0 12px; }
   .breadcrumb-bottom ul li {
     display: -webkit-box;
@@ -2731,7 +2731,7 @@ textarea:focus {
   opacity: .65; }
 
 .breadcrumb-top.breadcrumb-overly-2.default-overlay:before {
-  background-color: #003218;
+  background-color: #293653;
   opacity: .76; }
 
 .breadcrumb-top.breadcrumb-overly-3.default-overlay:before {
@@ -2771,7 +2771,7 @@ textarea:focus {
       position: absolute;
       top: 0;
       left: 0;
-      background-color: #00a651;
+      background-color: #35609F ;
       color: #fff;
       font-size: 13px;
       display: inline-block;
@@ -3030,7 +3030,7 @@ textarea:focus {
 
 .view-all a.default-btn {
   background-color: #fff;
-  color: #8DC341;;
+  color: #35609F ;
   -webkit-box-shadow: 0px 6px 12px 0.8px rgba(0, 166, 81, 0.22);
   box-shadow: 0px 6px 12px 0.8px rgba(0, 166, 81, 0.22);
   padding: 22px 40px 20px; }
@@ -3087,7 +3087,7 @@ textarea:focus {
     font-size: 40px;
     font-weight: bold;
     margin: 0 0 15px;
-    color: #00a651; }
+    color: #35609F ; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .single-count .count-content h2 {
         font-size: 40px;
@@ -3221,7 +3221,7 @@ textarea:focus {
         margin: 0 5px; }
 
 .testi-content.default-overlay:before {
-  background-color: #00a651;
+  background-color:#35609F ;
   opacity: .95; }
 
 .testi-big-img img {
@@ -3525,12 +3525,12 @@ textarea:focus {
     -o-transition: all .5s ease 0s;
     transition: all .5s ease 0s; }
     .single-teacher .teacher-content-visible h4 {
-      color: #00a651;
+      color: #35609F ;
       font-size: 18px;
       font-weight: bold;
       margin: 0 0 6px; }
     .single-teacher .teacher-content-visible h5 {
-      color: #00a651;
+      color: #35609F ;
       font-size: 16px;
       font-weight: bold;
       margin: 0 0 0px; }
@@ -3607,7 +3607,7 @@ textarea:focus {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #00a651;
+    background-color: #35609F;
     opacity: .9;
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
@@ -3616,7 +3616,7 @@ textarea:focus {
     -o-transition: all .5s ease 0s;
     transition: all .5s ease 0s; }
   .single-teacher:after {
-    border: 1px solid #0ac766;
+    border: 1px solid white;
     left: 12px;
     top: 15px;
     right: 12px;
@@ -3661,7 +3661,7 @@ textarea:focus {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     left: 0;
-    background-color: #00a651;
+    background-color: #35609F;
     padding: 12px 20px 12px; }
     .single-event .event-img .event-date-wrap span {
       color: #fff;
@@ -3710,7 +3710,7 @@ textarea:focus {
       height: 25px;
       border-radius: 100%;
       color: #fff;
-      background-color: #00a651;
+      background-color: #35609F ;
       font-size: 12px;
       text-align: center;
       line-height: 25px;
@@ -3728,7 +3728,7 @@ textarea:focus {
           height: 20px;
           line-height: 20px; } }
     .single-event .event-content .event-meta-wrap .event-meta span {
-      color: #00a651; }
+      color: #35609F  }
 
 .single-event:hover img {
   -webkit-transform: scale(1.2);
@@ -3871,7 +3871,7 @@ textarea:focus {
       position: absolute;
       top: -13px;
       left: 20px;
-      background-color: #00a651;
+      background-color: #4AAADF;
       color: #fff;
       display: inline-block;
       line-height: 1;
@@ -3917,7 +3917,7 @@ textarea:focus {
             .single-blog .blog-content-wrap .blog-content .blog-meta ul li a:hover {
               color: #00a651; }
     .single-blog .blog-content-wrap .blog-date {
-      background-color: #00a651;
+      background-color: #35609F;
       padding: 6px 20px 8px; }
       .single-blog .blog-content-wrap .blog-date a {
         line-height: 1;
@@ -3971,15 +3971,15 @@ textarea:focus {
   border-radius: 50px 0 0 50px; }
 
 .b-navigation.active {
-  background-color: #00a651;
+  background-color: #35609F;
   color: #fff; }
 
 .b-navigation2.active2 {
-  background-color: #00a651;
+  background-color: #35609F ;
   color: #fff; }
 
 .b-navigation3.active3 {
-  background-color: #00a651;
+  background-color: #35609F ;
   color: #fff; }
 
 .b-navigation.b-navigation-next,
@@ -4013,7 +4013,7 @@ textarea:focus {
 
 /*--------- 12. footer area ---------*/
 .footer-top.default-overlay:before {
-  background-color: #003502;
+  background-color: #35609F;
   opacity: .89; }
 
 @media only screen and (max-width: 767px) {
@@ -4036,7 +4036,7 @@ textarea:focus {
     content: "";
     height: 2px;
     width: 50px;
-    background-color: #00a651; }
+    background-color: white; }
 
 .footer-widget .footer-about p {
   color: #fff;
@@ -4110,14 +4110,14 @@ textarea:focus {
   width: auto;
   font-weight: bold;
   text-transform: uppercase;
-  color: #00a651;
+  color: #35609F;
   height: auto;
   padding: 9px 40px;
   margin-top: 20px;
   font-size: 14px;
   letter-spacing: .5px; }
   .footer-widget .subscribe-style .subscribe-form form .clear input:hover {
-    background-color: #00a651;
+    background-color: #4AAADF;
     color: #fff; }
 
 .negative-mrg-30 {
@@ -4133,7 +4133,7 @@ textarea:focus {
       margin-left: 0px; } }
 
 .footer-bottom {
-  background-color: #00a651; }
+  background-color: #293653}
 
 .copyright p {
   color: #fff;
@@ -6058,7 +6058,7 @@ textarea:focus {
 
 /*--------- 20. Contact page ---------*/
 .contact-map {
-  border: 10px solid #00a651;
+  border: 10px solid #35609F ;
   border-right: none; }
   .contact-map #map {
     height: 685px; }
@@ -6086,7 +6086,7 @@ textarea:focus {
       font-size: 35px; } }
   .contact-form .contact-title h2 span {
     font-weight: 400;
-    color: #00a651; }
+    color: #35609F ; }
 
 .contact-form .contact-title p {
   font-size: 16px;
@@ -6114,7 +6114,7 @@ textarea:focus {
   border: none;
   font-size: 16px;
   font-weight: bold;
-  color: #00a651;
+  color: #35609F ;
   background-color: #fff;
   line-height: 1;
   display: inline-block;
@@ -6128,7 +6128,7 @@ textarea:focus {
       margin-top: 30px; } }
   .contact-form form button:hover {
     color: #fff;
-    background-color: #00a651; }
+    background-color: #35609F ; }
 
 .contact-form p.form-messege {
   margin-top: 10px; }
