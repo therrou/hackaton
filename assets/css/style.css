@@ -173,7 +173,7 @@ ul {
   border-bottom: 1px solid #d5d5d5; }
 
 a:hover {
-  color: #00a651; }
+  color: #35609F; }
 
 /*************************
   Basic margin padding
@@ -1420,7 +1420,7 @@ textarea:focus {
         text-transform: capitalize;
         padding-top: 0px; }
         .main-menu nav ul li ul.submenu li a:hover {
-          color: #00a651; }
+          color: #35609F; }
         .main-menu nav ul li ul.submenu li a::before {
           background: #00a651 none repeat scroll 0 0;
           border-radius: 50%;
@@ -1446,7 +1446,7 @@ textarea:focus {
    .main-menu nav ul li:first-child {
     margin-left: 0px; }
   .main-menu nav ul li:hover a {
-    color: #00a651; }
+    color: #35609F; }
   .main-menu nav ul li a {
     font-size: 14px;
     color: #333;
@@ -1454,7 +1454,7 @@ textarea:focus {
     display: inline-block;
     line-height: 87px; }
     .main-menu nav ul li a i {
-      color: #00a651;
+      color: #35609F;
       font-size: 12px;
       margin-left: 9px; }
 
@@ -1515,7 +1515,7 @@ textarea:focus {
           text-transform: capitalize;
           padding-top: 0px; }
           .main-menu nav ul li.mega-menu-position ul.mega-menu > li ul li a:hover {
-            color: #00a651; }
+            color: #35609F; }
           .main-menu nav ul li.mega-menu-position ul.mega-menu > li ul li a::before {
             background: #00a651 none repeat scroll 0 0;
             border-radius: 50%;
@@ -1573,7 +1573,7 @@ textarea:focus {
       position: absolute;
       top: -8px;
       right: -11px;
-      background-color: #00a651;
+      background-color: #35609F;
       color: #fff;
       display: inline-block;
       width: 19px;
@@ -1632,7 +1632,7 @@ textarea:focus {
         .cart-wrap .shopping-cart-content ul li .shopping-cart-title h4 a {
           color: #033333; }
           .cart-wrap .shopping-cart-content ul li .shopping-cart-title h4 a:hover {
-            color: #00a651; }
+            color: #35609F; }
       .cart-wrap .shopping-cart-content ul li .shopping-cart-title h6 {
         font-size: 13px;
         margin: 3px 0 12px; }
@@ -1650,7 +1650,7 @@ textarea:focus {
         justify-content: flex-end; }
         .cart-wrap .shopping-cart-content ul li .shopping-cart-delete a {
           font-size: 16px;
-          color: #00a651; }
+          color: #35609F; }
           .cart-wrap .shopping-cart-content ul li .shopping-cart-delete a:hover {
             color: #333; }
     .cart-wrap .shopping-cart-content .shopping-cart-total h4 {
@@ -1668,13 +1668,13 @@ textarea:focus {
         font-size: 14px;
         display: block; }
   .cart-wrap:hover > button {
-    color: #00a651; }
+    color: #35609F; }
 
 .header-search {
   position: relative;
   margin-left: 21px; }
   .header-search:hover > button {
-    color: #00a651; }
+    color: #35609F; }
   .header-search button {
     background: transparent;
     padding: 0;
@@ -1708,7 +1708,7 @@ textarea:focus {
         border-left: 1px solid #ddd;
         padding: 5px 14px 5px 14px; }
         .header-search .search-content form button:hover {
-          color: #00a651; }
+          color: #35609F; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-bottom {
@@ -2040,7 +2040,7 @@ textarea:focus {
     padding-top: 50px; } }
 
 .slider-content-3 h1 {
-  color: #00a651;
+  color: #35609F;
   font-size: 60px;
   font-weight: bold;
   margin: 0; }
@@ -2095,7 +2095,7 @@ textarea:focus {
     opacity: 0;
     visibility: hidden; }
     .nav-style-2.owl-carousel .owl-nav div:hover {
-      background-color: #00a651; }
+      background-color: #35609F; }
     @media only screen and (min-width: 1366px) and (max-width: 1600px) {
       .nav-style-2.owl-carousel .owl-nav div {
         width: 50px;
@@ -2388,7 +2388,7 @@ textarea:focus {
         font-size: 33px;
         margin: 0 0 10px; } }
     .section-title-3 h2 span {
-      color: #00a651;
+      color: #35609F;
       font-weight: 400; }
   .section-title-3 p {
     font-size: 16px;
@@ -2483,8 +2483,8 @@ textarea:focus {
     width: 100%;
     text-align: left; }
     .choose-newsletter form button:hover {
-      background-color: #00a651;
-      border: 1px solid #00a651;
+      background-color: #35609F;
+      border: 1px solid #35609F;
       color: #fff; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2536,7 +2536,7 @@ textarea:focus {
 
 /*--------- 4. choose us area ---------*/
 .text-green.about-choose-content h3 {
-  color: #00a651; }
+  color: #35609F; }
 
 .about-negative-mrg {
   margin-left: -30px;
@@ -2779,7 +2779,7 @@ textarea:focus {
       padding: 6px 16px 8px; }
     .single-course .course-img span.new-course {
       background-color: #fff;
-      color: #00a651; }
+      color: #35609F; }
   .single-course .course-content {
     padding: 25px 17px 20px;
     background-color: #fff;
@@ -2795,7 +2795,7 @@ textarea:focus {
       .single-course .course-content h4 a {
         color: #333; }
         .single-course .course-content h4 a:hover {
-          color: #00a651; }
+          color: #35609F; }
     .single-course .course-content p {
       line-height: 23px; }
   .single-course .course-position-content {
@@ -2825,7 +2825,7 @@ textarea:focus {
         background-color: #dddddd;
         line-height: 25px;
         font-size: 12px;
-        color: #00a651;
+        color: #35609F;
         text-align: center;
         border-radius: 100%;
         margin-right: 2px; }
@@ -2856,7 +2856,7 @@ textarea:focus {
 .nav-style-1.owl-carousel > .owl-nav div {
   background-color: #fff;
   border-radius: 50px 0 0 50px;
-  color: #00a651;
+  color: #35609F;
   display: inline-block;
   font-size: 18px;
   height: 60px;
@@ -2874,7 +2874,7 @@ textarea:focus {
   -webkit-box-shadow: 0px 6px 12px 0.8px rgba(177, 177, 177, 0.38);
   box-shadow: 0px 6px 12px 0.8px rgba(177, 177, 177, 0.38); }
   .nav-style-1.owl-carousel > .owl-nav div:hover {
-    background-color: #00a651;
+    background-color: #35609F;
     color: #fff; }
   @media only screen and (min-width: 1200px) and (max-width: 1365px) {
     .nav-style-1.owl-carousel > .owl-nav div {
@@ -2994,7 +2994,7 @@ textarea:focus {
       margin: 0;
       line-height: 1; }
   .admission-tab-list a.active {
-    border-bottom: 2px solid #8cd8b1; }
+    border-bottom: 2px solid #4AAADF; }
 
 @media only screen and (max-width: 767px) {
   .admission-tab-list {
@@ -3322,7 +3322,7 @@ textarea:focus {
     justify-content: center; } }
 
 .single-count.count-white:before {
-  background-color: #00a651;
+  background-color: #35609F;
   width: 1px;
   top: 0; }
 
@@ -3405,7 +3405,7 @@ textarea:focus {
   .register-form form .contact-form-style button {
     border: none;
     background-color: #fff;
-    color: #00a651;
+    color: #35609F;
     -webkit-box-shadow: 0px 6px 12px 0.8px rgba(14, 14, 14, 0.26);
     box-shadow: 0px 6px 12px 0.8px rgba(14, 14, 14, 0.26);
     padding: 23px 40px 21px;
@@ -3756,7 +3756,7 @@ textarea:focus {
     text-align: center;
     line-height: 40px;
     background-color: #fff;
-    color: #00a651;
+    color: #35609F;
     left: 0;
     z-index: 99;
     cursor: pointer;
@@ -3765,7 +3765,7 @@ textarea:focus {
     opacity: 0;
     visibility: hidden; }
     .event-active-2 .e-navigation:hover {
-      background-color: #00a651;
+      background-color: #35609F;
       color: #fff; }
   .event-active-2:hover .e-navigation {
     opacity: 1;
@@ -3820,14 +3820,14 @@ textarea:focus {
     line-height: 48px;
     font-size: 16px;
     border-radius: 100%;
-    color: #00a651;
+    color: #35609F;
     -webkit-box-shadow: 0 0px 12px 0.8px rgba(0, 166, 81, 0.1);
     box-shadow: 0 0px 12px 0.8px rgba(0, 166, 81, 0.1); }
     .pro-pagination-style ul li a:hover {
-      background-color: #00a651;
+      background-color: #35609F;
       color: #fff; }
   .pro-pagination-style ul li a.active {
-    background-color: #00a651;
+    background-color: #35609F;
     color: #fff;
     -webkit-box-shadow: none;
     box-shadow: none; }
@@ -3836,13 +3836,13 @@ textarea:focus {
   .pro-pagination-style ul li a.prev,
   .pro-pagination-style ul li a.next {
     background-color: #f6f6f6;
-    color: #00a651;
+    color: #35609F;
     font-size: 17px;
     -webkit-box-shadow: none;
     box-shadow: none; }
     .pro-pagination-style ul li a.prev:hover,
     .pro-pagination-style ul li a.next:hover {
-      background-color: #00a651;
+      background-color: #35609F;
       color: #fff; }
 
 @media only screen and (max-width: 767px) {
@@ -3912,10 +3912,10 @@ textarea:focus {
             color: #333; }
             .single-blog .blog-content-wrap .blog-content .blog-meta ul li a i {
               font-size: 12px;
-              color: #00a651;
+              color: #35609F;
               margin-right: 5px; }
             .single-blog .blog-content-wrap .blog-content .blog-meta ul li a:hover {
-              color: #00a651; }
+              color: #35609F; }
     .single-blog .blog-content-wrap .blog-date {
       background-color: #35609F;
       padding: 6px 20px 8px; }
@@ -3956,7 +3956,7 @@ textarea:focus {
   -webkit-box-shadow: 0px 6px 12px 0.8px rgba(177, 177, 177, 0.38);
   box-shadow: 0px 6px 12px 0.8px rgba(177, 177, 177, 0.38);
   cursor: pointer;
-  color: #00a651;
+  color: #35609F;
   z-index: 9; }
   @media only screen and (max-width: 767px) {
     .b-navigation,
@@ -4068,7 +4068,7 @@ textarea:focus {
       color: #fff;
       display: block; }
       .footer-widget .footer-list ul li a:hover {
-        color: #00a651; }
+        color: #35609F; }
 
 .footer-widget .footer-gallery ul {
   display: -webkit-box;
@@ -4381,7 +4381,7 @@ textarea:focus {
       position: absolute;
       left: 0;
       top: 0;
-      background-color: #00a651;
+      background-color: #35609F;
       color: #fff;
       display: block;
       line-height: 1;
@@ -4448,7 +4448,7 @@ textarea:focus {
             -ms-flex-pack: center;
             justify-content: center; }
             .product-wrap .product-img .product-action ul li a:hover {
-              background-color: #00a651;
+              background-color: #35609F;
               color: #fff; }
           .product-wrap .product-img .product-action ul li:last-child {
             width: 25%; }
@@ -4472,7 +4472,7 @@ textarea:focus {
         .product-wrap .product-content .pro-title-rating-wrap .product-title h3 a {
           color: #033333; }
           .product-wrap .product-content .pro-title-rating-wrap .product-title h3 a:hover {
-            color: #00a651; }
+            color: #35609F; }
       .product-wrap .product-content .pro-title-rating-wrap .product-rating {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -4480,7 +4480,7 @@ textarea:focus {
         .product-wrap .product-content .pro-title-rating-wrap .product-rating i {
           font-size: 14px;
           margin-left: 4px;
-          color: #00a651; }
+          color: #35609F; }
     .product-wrap .product-content .pro-category-price {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -4551,7 +4551,7 @@ textarea:focus {
     cursor: pointer;
     opacity: 1; }
     .modal-dialog .modal-header .close:hover {
-      color: #00a651; }
+      color: #35609F; }
 
 .quickview-big-img img {
   width: 100%; }
@@ -4560,7 +4560,7 @@ textarea:focus {
   margin: 30px 0 0; }
 
 .thumb-menu.owl-carousel .owl-nav div {
-  color: #00a651;
+  color: #35609F;
   cursor: pointer;
   display: inline-block;
   font-size: 14px;
@@ -4580,7 +4580,7 @@ textarea:focus {
   border-radius: 100%;
   text-align: center; }
   .thumb-menu.owl-carousel .owl-nav div:hover {
-    background-color: #00a651;
+    background-color: #35609F;
     color: #fff; }
 
 .thumb-menu.owl-carousel .owl-nav div.owl-next {
@@ -4591,7 +4591,7 @@ textarea:focus {
   font-size: 16px;
   font-weight: 500; }
   .quickview-content span i {
-    color: #00a651;
+    color: #35609F;
     font-size: 16px; }
 
 @media only screen and (max-width: 767px) {
@@ -4624,13 +4624,13 @@ textarea:focus {
       .discount-img-wrap .discount-img-content-wrap .discount-img-content h5 {
         font-size: 48px;
         font-weight: bold;
-        color: #00a651;
+        color: #35609F;
         margin: 0 0 13px;
         line-height: 35px; }
       .discount-img-wrap .discount-img-content-wrap .discount-img-content span {
         font-size: 14px;
         font-weight: bold;
-        color: #00a651; }
+        color: #35609F; }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .discount-img-wrap.mr-60 {
@@ -4799,7 +4799,7 @@ textarea:focus {
     .course-tab-list a:before {
       position: absolute;
       content: "";
-      background-color: #00a651;
+      background-color: #35609F;
       left: -6px;
       top: 12px;
       width: 117%;
@@ -4815,13 +4815,13 @@ textarea:focus {
       opacity: 1;
       visibility: visible; }
   .course-tab-list a.active h4 {
-    color: #00a651; }
+    color: #4AAADF; }
   .course-tab-list a.active:before {
     opacity: 1;
     visibility: visible; }
 
 .over-view-content > h4 {
-  color: #00a651;
+  color: #4AAADF;
   font-weight: bold;
   font-size: 16px;
   margin: 0 0 11px; }
@@ -4848,7 +4848,7 @@ textarea:focus {
       font-size: 12px;
       margin-right: 16px; }
       .over-view-list .sin-over-view-list .course-list-icon i {
-        color: #00a651; }
+        color: #4AAADF; }
     .over-view-list .sin-over-view-list .course-list-content p {
       color: #333;
       margin: 0; }
@@ -4897,7 +4897,7 @@ textarea:focus {
       margin: 0 0 10px; }
     .course-summary-wrap .single-course-summary span {
       font-size: 16px;
-      color: #00a651; }
+      color: #35609F; }
       .course-summary-wrap .single-course-summary span i {
         font-size: 12px;
         margin-right: 2px;
@@ -4976,7 +4976,7 @@ textarea:focus {
         .single-review .review-top-wrap .review-left .review-rating i {
           font-size: 12px;
           margin-right: 1px;
-          color: #00a651; }
+          color: #35609F; }
     .single-review .review-top-wrap .review-btn a {
       font-weight: 500;
       line-height: 1; }
@@ -5007,7 +5007,7 @@ textarea:focus {
       margin: 0 15px 0 0; }
     .ratting-form-wrapper .ratting-form form .star-box .ratting-star {
       font-size: 12px;
-      color: #00a651;
+      color: #35609F;
       margin: 2px 0 0; }
   .ratting-form-wrapper .ratting-form form .rating-form-style input,
   .ratting-form-wrapper .ratting-form form .rating-form-style textarea {
@@ -5024,9 +5024,9 @@ textarea:focus {
     font-weight: 500;
     text-transform: uppercase;
     height: 55px;
-    background-color: #00a651;
+    background-color: #35609F;
     color: #fff;
-    border: 1px solid #00a651; }
+    border: 1px solid #35609F; }
     .ratting-form-wrapper .ratting-form form .form-submit input:hover {
       background-color: #333;
       border: 1px solid #333; }
@@ -5047,10 +5047,10 @@ textarea:focus {
 .sidebar-title {
   position: relative; }
   .sidebar-title h4 {
-    color: #00a651;
+    color: #35609F;
     font-size: 18px;
     margin: 0;
-    border-bottom: 1px solid #00a651;
+    border-bottom: 1px solid #35609F;
     padding-bottom: 17px;
     line-height: 1; }
 
@@ -5075,7 +5075,7 @@ textarea:focus {
     transform: translateY(-50%);
     border: none;
     background: transparent;
-    color: #00a651;
+    color: #35609F;
     font-size: 14px;
     padding: 0 10px; }
     .sidebar-search form button:hover {
@@ -5142,9 +5142,9 @@ textarea:focus {
     .single-recent-post .recent-post-content h5 a {
       color: #333333; }
       .single-recent-post .recent-post-content h5 a:hover {
-        color: #00a651; }
+        color: #35609F; }
   .single-recent-post .recent-post-content span {
-    color: #00a651;
+    color: #35609F;
     font-size: 13px;
     display: block;
     line-height: 1;
@@ -5189,10 +5189,10 @@ textarea:focus {
       -o-transition: all .3s ease 0s;
       transition: all .3s ease 0s; }
   .category-list ul li:hover a {
-    color: #00a651; }
+    color: #35609F; }
   .category-list ul li:hover a span {
     color: #fff;
-    background-color: #00a651; }
+    background-color: #35609F; }
 
 .sidebar-recent-course .sin-sidebar-recent-course {
   display: -webkit-box;
@@ -5216,7 +5216,7 @@ textarea:focus {
     .sidebar-recent-course .sin-sidebar-recent-course .sidebar-recent-course-content h4 a {
       color: #333; }
       .sidebar-recent-course .sin-sidebar-recent-course .sidebar-recent-course-content h4 a:hover {
-        color: #00a651; }
+        color: #35609F; }
   .sidebar-recent-course .sin-sidebar-recent-course .sidebar-recent-course-content ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5233,14 +5233,14 @@ textarea:focus {
         top: 6px;
         width: 1px;
         height: 10px;
-        background-color: #00a651;
+        background-color: #35609F;
         content: ""; }
       .sidebar-recent-course .sin-sidebar-recent-course .sidebar-recent-course-content ul li:last-child:before {
         display: none; }
       .sidebar-recent-course .sin-sidebar-recent-course .sidebar-recent-course-content ul li:last-child {
         margin-right: 0; }
     .sidebar-recent-course .sin-sidebar-recent-course .sidebar-recent-course-content ul li.duration-color {
-      color: #00a651; }
+      color: #35609F; }
   .sidebar-recent-course .sin-sidebar-recent-course .sidebar-recent-course-content p {
     margin: 0;
     line-height: 23px; }
@@ -5254,9 +5254,9 @@ textarea:focus {
     border: 1px solid #bbbbbb;
     padding: 11px 15px 10px; }
     .sidebar-tag ul li a:hover {
-      background-color: #00a651;
+      background-color: #35609F;
       color: #fff;
-      border: 1px solid #00a651; }
+      border: 1px solid #35609F; }
 
 /*--------- 22. Event details page ---------*/
 .description-date-social {
@@ -5286,7 +5286,7 @@ textarea:focus {
       display: inline-block;
       float: left;
       padding: 13px 20px;
-      background-color: #00a651;
+      background-color: #35609F;
       margin-right: 20px; }
       .description-date-social .description-date-time .description-date span {
         display: block;
@@ -5311,10 +5311,10 @@ textarea:focus {
           line-height: 25px;
           border-radius: 100%;
           text-align: center;
-          background-color: #00a651;
+          background-color: #35609F;
           margin-right: 5px; }
         .description-date-social .description-date-time .description-meta-wrap .description-meta span {
-          color: #00a651; }
+          color: #35609F; }
   .description-date-social .description-social-wrap {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5349,7 +5349,7 @@ textarea:focus {
     .description-date-social .description-social-wrap .description-btn a {
       font-size: 18px;
       background-color: #f6f6f6;
-      color: #00a651;
+      color: #35609F;
       width: 44px;
       height: 44px;
       line-height: 44px;
@@ -5358,7 +5358,7 @@ textarea:focus {
       text-align: center;
       margin-left: 14px; }
       .description-date-social .description-social-wrap .description-btn a:hover {
-        background-color: #00a651;
+        background-color: #35609F;
         color: #fff; }
 
 .event-description img {
@@ -5368,7 +5368,7 @@ textarea:focus {
   font-weight: bold;
   font-size: 24px;
   margin: 30px 0 19px;
-  color: #00a651;
+  color: #35609F;
   line-height: 38px; }
   @media only screen and (max-width: 767px) {
     .event-description h3 {
@@ -5383,13 +5383,13 @@ textarea:focus {
   font-size: 18px;
   font-weight: bold;
   margin: 0;
-  color: #00a651;
+  color: #35609F;
   background-color: #f6f6f6;
   padding: 13px 0 15px; }
 
 .nav-style-3.owl-carousel .owl-nav div {
   background-color: #fff;
-  color: #00a651;
+  color: #35609F;
   font-size: 18px;
   width: 40px;
   height: 40px;
@@ -5410,7 +5410,7 @@ textarea:focus {
   opacity: 1;
   visibility: visible; }
   .nav-style-3.owl-carousel .owl-nav div:hover {
-    background-color: #00a651;
+    background-color: #35609F;
     color: #fff; }
 
 .nav-style-3.owl-carousel .owl-nav div.owl-next {
@@ -5480,7 +5480,7 @@ textarea:focus {
       font-size: 16px;
       letter-spacing: .5px;
       text-transform: uppercase;
-      color: #00a651;
+      color: #35609F;
       background-color: #fff;
       line-height: 1;
       padding: 21px 40px 21px;
@@ -5557,7 +5557,7 @@ textarea:focus {
         .shop-top-bar .shop-tab-wrap .shop-tab a:last-child {
           margin-right: 0px; }
       .shop-top-bar .shop-tab-wrap .shop-tab a.active {
-        color: #00a651; }
+        color: #35609F; }
     .shop-top-bar .shop-tab-wrap p {
       font-size: 16px; }
   .shop-top-bar .shop-select select {
