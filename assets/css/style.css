@@ -1246,7 +1246,7 @@ textarea:focus {
 
 /*--------- 2. Header style ---------*/
 .header-top {
-  padding: 15px 0 22px;
+  padding: 15px 0 0px;
   position: relative; }
   .header-top:before {
     position: absolute;
