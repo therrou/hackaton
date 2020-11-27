@@ -7236,7 +7236,7 @@ h3.cart-page-title {
   @media only screen and (max-width: 767px) {
     .login-register-wrapper .login-form-container {
       padding: 40px 15px; } }
-  .login-register-wrapper .login-form-container .login-register-form form input {
+  .login-register-wrapper .login-form-container .login-register-form form input  {
     background-color: transparent;
     border: 1px solid #ebebeb;
     color: #333;
@@ -7244,6 +7244,16 @@ h3.cart-page-title {
     height: 50px;
     margin-bottom: 30px;
     padding: 0 15px; }
+    .login-register-wrapper .login-form-container .login-register-form select {
+      background-color: transparent;
+      border: 1px solid #ebebeb;
+      color: #333;
+      font-size: 14px;
+      height: 50px;
+      margin-bottom: 30px;
+      padding: 0 15px;
+    }
+  
   .login-register-wrapper .login-form-container .login-register-form form input[type="checkbox"] {
     height: 15px;
     margin: 0;
